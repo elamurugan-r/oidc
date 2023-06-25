@@ -2,7 +2,7 @@ import { useOidcUser } from "@axa-fr/react-oidc";
 import React from "react";
 
 export const Header = () => {
-  const { oidcUser, oidcUserLoadingState } = useOidcUser();
+  const { oidcUser } = useOidcUser();
   return (
     <nav>
       <a href="/">Home</a>

@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import { RouteList } from "./Routes";
-import { OidcProvider, OidcSecure, } from "@axa-fr/react-oidc";
+import { OidcProvider } from "@axa-fr/react-oidc";
 
 const configuration = {
   client_id: "interactive.public.short",

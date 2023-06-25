@@ -1,6 +1,6 @@
 import React from "react";
 import { Layout } from "../layout";
-import { OidcSecure, useOidcIdToken } from "@axa-fr/react-oidc";
+import { OidcSecure } from "@axa-fr/react-oidc";
 
 export const Admin = () => {
   return (
