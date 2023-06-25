@@ -1,0 +1,40 @@
+.App {
+  position: absolute;
+  text-align: center;
+  width: 90vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav{
+  position: relative;
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  margin-right: 100px;
+}
+header{
+  position: relative;
+  margin-bottom: 50px;
+}
+.token-details {
+  width: 800px;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 300px;
+
+}
+main{
+  position: relative;
+
+}
+
+footer {
+  position: relative;
+  margin-top: 50px;
+}
